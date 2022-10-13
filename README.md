@@ -41,4 +41,4 @@
    `SELECT SUM(count) FROM retiring_titles;`
    
    + *Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?*
-   From the mentorship eligibility table, using the sum function: `SELECT COUNT(emp_no) FROM mentorship_eligibility;` it is discovered that there are 1549 employees eligible for mentorship. At such, there are more than enough retirement-ready employees to mentor the next generation of Pewlett Hackard employees.
+   From the mentorship eligibility table, using the COUNTfunction: `SELECT COUNT(emp_no) FROM mentorship_eligibility;`, it is discovered that there are 1549 employees eligible for mentorship. At such, there are more than enough retirement-ready employees to mentor the next generation of Pewlett Hackard employees.
